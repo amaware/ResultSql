@@ -1,0 +1,137 @@
+=>net.amaware.autil.ACommDb=>LOGFILE |Dir=C:\projects\amawareJavaDev\projects\ResultSql |Name=angel_000.log.txt
+=>net.amaware.autil.ACommDb=>Start @2017-01-22 07:19:58.394 |LogFileName=angel_000.log.txt
+    |userName=angel_000 |userHome=C:\Users\angel_000
+    |userDirectoryName=C:\projects\amawareJavaDev\projects\ResultSql |environment=Windows 8
+_______________Input Args_________________
+Arg#0=C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql
+argSqlFileDir=C:\projects\amawareData\AMA-DNA\db-dna\sql
+argSqlFileFullName=C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql
+argSqlFileExt=SQL
+argSqlFileNameSansExt=logs-group
+------------------------------
+------------------------------
+isFromfile=true
+------------------------------
+_____________________end___________________
+__________PROCESSING SQL FILE_ OR TEMPLATE_______________
+__________________________________________
+__Source is SQL
+__________________________________________
+____________________Report______________________
+ |reportDirName= |reportDirNameFull= |propName=MainSqlReportDir |propVal=
+=>net.amaware.serv.SourceProperty=>PropName{dbUserPassword}...value{password being HIDDEN}
+=>net.amaware.serv.SourceProperty=>PropName{mailFrom}...value{info@amaware.net}...valget{info@amaware.net}
+=>net.amaware.serv.SourceProperty=>PropName{sourceHeadRowStart}...value{0}...valget{0}
+=>net.amaware.serv.SourceProperty=>PropName{sourceName}...value{}...valget{}
+=>net.amaware.serv.SourceProperty=>PropName{[RESULTSQL-PROPERTIES]}...value{}...valget{}
+=>net.amaware.serv.SourceProperty=>PropName{sourceDir}...value{}...valget{}
+=>net.amaware.serv.SourceProperty=>PropName{sourceHeadRowEnd}...value{0}...valget{0}
+=>net.amaware.serv.SourceProperty=>PropName{[ACOM-DB]}...value{}...valget{}
+=>net.amaware.serv.SourceProperty=>PropName{[ACOM-USER-FILES]}...value{}...valget{}
+=>net.amaware.serv.SourceProperty=>PropName{propBasePropFile}...value{localhost.properties}...valget{localhost.properties}
+=>net.amaware.serv.SourceProperty=>PropName{dbDriverClass}...value{com.mysql.jdbc.Driver}...valget{com.mysql.jdbc.Driver}
+=>net.amaware.serv.SourceProperty=>PropName{mailSubject}...value{ResultsSql sent Email}...valget{ResultsSql sent Email}
+=>net.amaware.serv.SourceProperty=>PropName{sourceDataHeadRowStart}...value{0}...valget{0}
+=>net.amaware.serv.SourceProperty=>PropName{sourceDataRowStart}...value{1}...valget{1}
+=>net.amaware.serv.SourceProperty=>PropName{propBasePropDir}...value{/projects/amawareJavaDev/propertiesAMAWARE}...valget{/projects/amawareJavaDev/propertiesAMAWARE}
+=>net.amaware.serv.SourceProperty=>PropName{dbURL}...value{jdbc:mysql://localhost:3306/local}...valget{jdbc:mysql://localhost:3306/local}
+=>net.amaware.serv.SourceProperty=>PropName{reportFontSize}...value{1em}...valget{1em}
+=>net.amaware.serv.SourceProperty=>PropName{mailTo}...value{angelo@dnalady.com}...valget{angelo@dnalady.com}
+=>net.amaware.serv.SourceProperty=>PropName{sourceNameFull}...value{C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql}...valget{C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql}
+=>net.amaware.serv.SourceProperty=>PropName{sourceDataHeadRowEnd}...value{0}...valget{0}
+=>net.amaware.serv.SourceProperty=>PropName{dbUserID}...value{amaware}...valget{amaware}
+=>net.amaware.serv.SourceProperty=>PropName{sourceDataRowEnd}...value{999999999}...valget{999999999}
+=>net.amaware.serv.SourceProperty=>PropName{dbMaxRowsReturn}...value{2000}...valget{2000}
+=>net.amaware.serv.SourceProperty=>PropName{[ACOM-BASE-PROPERTIES]}...value{}...valget{}
+____________________Report______________________
+ |reportDirName= |reportDirNameFull=C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql |propName=MainSqlReportDir |propVal=
+net.amaware.serv.HtmlTargetServ=>HTML Report File Opened |fileInName=C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql.html |fileInNameUse=C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql.html |Dir=C:\projects\amawareData\AMA-DNA\db-dna\sql |Name=logs-group.sql.html
+__________________________________________________________net.amaware.autil.ACommDb:dbConGet()________________________________________________________
+=>net.amaware.autil.ACommDb=>DB Con Opened  |URL=jdbc:mysql://localhost:3306/local |User=amaware
+  |DBProduct=MySQL  |DBVersion=5.7.17-log
+=>net.amaware.autil.ACommDb=>Current TS=2017-01-22 07:19:59.0
+________________________________________________________________________________________________________________________________________________________
+net.amaware.apps.resultsql.ResultSqlApp:processThis=>mapColsNum=0 titles{}
+net.amaware.apps.resultsql.ResultSqlApp:processThis StatementId=0 |SourcePropertyFileName=C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql |TemplateOutputFileName=
+         |dbMaxRowsToReturn=2000 |PropertyNumberOfMaxDataRows=999999999
+ 
+net.amaware.serv.SourceServ:process=>logs-group.sql |Source=C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql
+           |#DataStoreRowEndNum=999999999 |#SourceProcessRowMax=2000 |#AcommDbPrepSmtMaxRows=2000
+=>mapColsNum=0
+=>net.amaware.aproc.SourceSqlProc:SourceOpen=>FileName=C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql |#Statements=2
+
+net.amaware.serv.SourceServ:sourceStarted=>C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql |FileHeadRow#0 |DataHeadRow#0 |DataStart#1 |DataEnd#999999999
+ 
+net.amaware.apps.resultsql.ResultSqlApp:doSourceStarted=>mapColsNum=0
+net.amaware.apps.resultsql.ResultSqlApp=>ReportBreakNum=
+net.amaware.apps.resultsql.ResultSqlApp=>ReportBreakSumNum=
+net.amaware.apps.resultsql.ResultSqlApp:doSourceStarted Ended=>mapColsNum=0
+ 
+net.amaware.serv.SourceServ:process=>AboutTo sourceStart |ProcessMode=P
+_________sourceStart_____SourceSqlProc__ Stmt#1 |#Statments=2 |ThisStmtSize=53
+ |Stmt=parm-cmd propBasePropFile dna-dnapersonal.properties
+
+net.amaware.aproc.SourceSqlProc:sourceStart=>Statement #1 |#TotStatements=2 |ProcessMode=P |Subject=parm-cmd |Topic=propBasePropFile |Tran=dna-dnapersonal.properties
+net.amaware.aproc.SourceSqlProc |SQL=parm-cmd propBasePropFile dna-dnapersonal.properties;
+ |Statement=parm-cmd propBasePropFile dna-dnapersonal.properties;
+net.amaware.aproc.SourceSqlProc:sourceStart=>Ended |Subject= |PeocessMode=C
+ 
+net.amaware.serv.SourceServ:process=>sourceStarted |ProcessMode=C
+=>net.amaware.autil.APropertiesFile=>ModPropFile=/projects/amawareJavaDev/propertiesAMAWARE/dna-dnapersonal.properties |#items=6
+=>net.amaware.autil.APropertiesFile |ModProp GET dbUserPassword=4cSCCGQK |ModProp SET dbUserPassword=4cSCCGQK
+=>net.amaware.autil.APropertiesFile |ModProp GET dbDriverClass=com.mysql.jdbc.Driver |ModProp SET dbDriverClass=com.mysql.jdbc.Driver
+=>net.amaware.autil.APropertiesFile |ModProp GET [ACOM-DB]= |ModProp SET [ACOM-DB]=
+=>net.amaware.autil.APropertiesFile |ModProp GET dbMaxRowsReturn=1000 |ModProp SET dbMaxRowsReturn=1000
+=>net.amaware.autil.APropertiesFile |ModProp GET dbURL=jdbc:mysql://db153.pair.com:3306/dnapersonal_dna |ModProp SET dbURL=jdbc:mysql://db153.pair.com:3306/dnapersonal_dna
+=>net.amaware.autil.APropertiesFile |ModProp GET dbUserID=1024057_4_w |ModProp SET dbUserID=1024057_4_w
+=>net.amaware.autil.ACommDb=>DB Con Rollback=>These were rollbacked=> TotRowSelectCnts{0} TotRowInsertCnts{0} TotRowInsertDupsCnts{0} TotRowUpdateCnts{0} TotRowDeleteCnts{0}
+=>net.amaware.autil.ACommDb=>DB Con Closed=> TotRowSelectCnts{0} TotRowInsertCnts{0} TotRowInsertDupsCnts{0} TotRowUpdateCnts{0} TotRowDeleteCnts{0}
+__________________________________________________________net.amaware.autil.ACommDb:dbConGet()________________________________________________________
+=>net.amaware.autil.ACommDb=>DB Con Opened  |URL=jdbc:mysql://db153.pair.com:3306/dnapersonal_dna |User=1024057_4_w
+  |DBProduct=MySQL  |DBVersion=5.6.31-log
+=>net.amaware.autil.ACommDb=>Current TS=2017-01-22 07:20:03.0
+________________________________________________________________________________________________________________________________________________________
+net.amaware.serv.HtmlTargetServ=>HTML Report File Opened |fileInName=C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql-db153-dnapersonal_dna.html |fileInNameUse=C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql-db153-dnapersonal_dna.html |Dir=C:\projects\amawareData\AMA-DNA\db-dna\sql |Name=logs-group.sql-db153-dnapersonal_dna.html
+net.amaware.aproc.SourceSqlProc:sourceEnded=> After CloseQuery ResultSet is null
+=>net.amaware.aproc.SourceSqlProc:SourceEnded=>Statement #1 |#TotalStatements=2
+ 
+net.amaware.serv.SourceServ:process=>AboutTo sourceStart |ProcessMode=C
+_________sourceStart_____SourceSqlProc__ Stmt#2 |#Statments=2 |ThisStmtSize=148
+ |Stmt=SELECT
+entry_type
+, min(create_ts) as min_create_ts
+, max(create_ts) as max_create_ts
+, count(*)
+FROM logs
+group by entry_type
+ORDER BY  entry_type
+
+net.amaware.aproc.SourceSqlProc:sourceStart=>Statement #2 |#TotStatements=2 |ProcessMode=P |Subject=SELECT |Topic= |Tran=
+ |Msg=entry_type
+ |Msg=, min(create_ts) as min_create_ts
+ |Msg=, max(create_ts) as max_create_ts
+ |Msg=, count(*)
+ |Msg=FROM logs
+ |Msg=group by entry_type
+ |Msg=ORDER BY  entry_type
+net.amaware.aproc.SourceSqlProc |SQL=SELECT entry_type , min(create_ts) as min_create_ts , max(create_ts) as max_create_ts , count(*) FROM logs group by entry_type ORDER BY  entry_type;
+ |Statement=SELECT entry_type , min(create_ts) as min_create_ts , max(create_ts) as max_create_ts , count(*) FROM logs group by entry_type ORDER BY  entry_type;
+net.amaware.aproc.SourceSqlProc:sourceStart=>Ended |Subject=SELECT |PeocessMode=S
+ 
+net.amaware.serv.SourceServ:process=>sourceStarted |ProcessMode=S
+net.amaware.serv.SourceServ:rowNext=>FirstDataRow@ 1 |ToEnd@ 999999999
+net.amaware.serv.SourceServ:doSourceDataHeader=> |#DataColumns=4
+net.amaware.apps.resultsql.ResultSqlApp=>DataColNames=|entry_type|min_create_ts|max_create_ts|count(*)|
+net.amaware.apps.resultsql.ResultSqlApp=>DataColTitles=|entry_type|min_create_ts|max_create_ts|count(*)|
+net.amaware.serv.HtmlTargetServ=>outPageHeading=> |#Cols=4 |#Cloned=4 |DataHeadRow#0 |DataRow#0 |SourceRow#1
+net.amaware.serv.HtmlTargetServ=>No Source Data Header
+net.amaware.apps.resultsql.ResultSqlApp:doDataRowsEnded=>StatementId=2 @SourceRows#3 @DataRow#3  |#DataMaxRows=999999999  |#dbRowsMaxReturn=1000
+net.amaware.serv.SourceServ:sourceEnded=>C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql |#FileRows=3 |#DataRows=3
+net.amaware.aproc.SourceSqlProc:sourceEnded=> After CloseQuery ResultSet is null
+=>net.amaware.aproc.SourceSqlProc:SourceEnded=>Statement #2 |#TotalStatements=2
+=>net.amaware.autil.ACommDb=>DB Con Commit=> TotRowSelectCnts{3} TotRowInsertCnts{0} TotRowInsertDupsCnts{0} TotRowUpdateCnts{0} TotRowDeleteCnts{0}
+=>net.amaware.autil.ACommDb=>DB Con Closed=> TotRowSelectCnts{3} TotRowInsertCnts{0} TotRowInsertDupsCnts{0} TotRowUpdateCnts{0} TotRowDeleteCnts{0}
+____________________Email______________________
+ |Host= |From=info@amaware.net |To=angelo@dnalady.com |Subject=ResultsSql sent Email |fileToSend=C:\projects\amawareData\AMA-DNA\db-dna\sql\logs-group.sql-db153-dnapersonal_dna.html
+No mail being sent...Host name is empty
+=>net.amaware.autil.ACommDb=>Complete TS=2017-01-22 07:19:59.983

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/projects/amawareJavaDev/jar/amawarebase.jar" sourcepath="/AUtil"/>
+	<classpathentry kind="lib" path="/projects/amawareJavaDev/jar/poi.jar"/>
+	<classpathentry kind="lib" path="/projects/amawareJavaDev/jar/mail.jar"/>
+	<classpathentry kind="lib" path="/projects/amawareJavaDev/jar/jsoup.jar"/>
+	<classpathentry kind="lib" path="C:/projects/amawareJavaDev/jar/openxml4j.jar"/>
+	<classpathentry kind="lib" path="C:/projects/amawareJavaDev/jar/poi-ooxml.jar"/>
+	<classpathentry kind="lib" path="C:/projects/amawareJavaDev/jar/poi-ooxml-schemas.jar"/>
+	<classpathentry kind="lib" path="C:/projects/amawareJavaDev/jar/poi-scratchpad.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/AUtil"/>
+	<classpathentry kind="lib" path="C:/projects/amawareJavaDev/jar/mysql-connector-java.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

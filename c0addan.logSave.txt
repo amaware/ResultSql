@@ -1,0 +1,110 @@
+=>com.vzw.cops.autil.ACommDb=>LOGFILE |Dir=C:\Users\c0addan\IBM\rationalsdp\workspaceVerizonJava\vzwJavaDev\projects\ResultSql |Name=c0addan.log.txt
+=>com.vzw.cops.autil.ACommDb=>Start @2013-04-02 12:12:48.801 |LogFileName=c0addan.log.txt
+    |userName=c0addan |userHome=C:\Users\c0addan
+    |userDirectoryName=C:\Users\c0addan\IBM\rationalsdp\workspaceVerizonJava\vzwJavaDev\projects\ResultSql |environment=Windows 7
+_______________Input Args_________________
+Arg#0=ResultSql.sql
+argSqlFileDir=
+argSqlFileFullName=ResultSql.sql
+argSqlFileExt=SQL
+argSqlFileNameSansExt=ResultSql
+------------------------------
+------------------------------
+isFromfile=true
+------------------------------
+_____________________end___________________
+____________________Report______________________
+ |reportDirName= |reportDirNameFull= |propName=ResultSqlReportDir |propVal=
+=>com.vzw.cops.serv.SourceProperty=>PropName{dbUserPassword}...value{febfeb13}...valget{febfeb13}
+=>com.vzw.cops.serv.SourceProperty=>PropName{sourceHeadRowStart}...value{0}...valget{0}
+=>com.vzw.cops.serv.SourceProperty=>PropName{sourceName}...value{}...valget{}
+=>com.vzw.cops.serv.SourceProperty=>PropName{[RESULTSQL-PROPERTIES]}...value{}...valget{}
+=>com.vzw.cops.serv.SourceProperty=>PropName{sourceDir}...value{}...valget{}
+=>com.vzw.cops.serv.SourceProperty=>PropName{[ACOM-DB]}...value{}...valget{}
+=>com.vzw.cops.serv.SourceProperty=>PropName{sourceHeadRowEnd}...value{0}...valget{0}
+=>com.vzw.cops.serv.SourceProperty=>PropName{[ACOM-USER-FILES]}...value{}...valget{}
+=>com.vzw.cops.serv.SourceProperty=>PropName{propBasePropFile}...value{verizon-db2-dev-east.properties}...valget{verizon-db2-dev-east.properties}
+=>com.vzw.cops.serv.SourceProperty=>PropName{dbDriverClass}...value{com.ibm.db2.jcc.DB2Driver}...valget{com.ibm.db2.jcc.DB2Driver}
+=>com.vzw.cops.serv.SourceProperty=>PropName{sourceDataHeadRowStart}...value{0}...valget{0}
+=>com.vzw.cops.serv.SourceProperty=>PropName{sourceDataRowStart}...value{1}...valget{1}
+=>com.vzw.cops.serv.SourceProperty=>PropName{propBasePropDir}...value{C:/Users/c0addan/IBM/rationalsdp/workspaceVerizonJava/vzwJavaDev/properties}...valget{C:/Users/c0addan/IBM/rationalsdp/workspaceVerizonJava/vzwJavaDev/properties}
+=>com.vzw.cops.serv.SourceProperty=>PropName{dbURL}...value{jdbc:db2://DDFDAT1.ODC.VZWCORP.COM:446/NYOBDAT1}...valget{jdbc:db2://DDFDAT1.ODC.VZWCORP.COM:446/NYOBDAT1}
+=>com.vzw.cops.serv.SourceProperty=>PropName{sourceNameFull}...value{ResultSql.sql}...valget{ResultSql.sql}
+=>com.vzw.cops.serv.SourceProperty=>PropName{sourceDataHeadRowEnd}...value{0}...valget{0}
+=>com.vzw.cops.serv.SourceProperty=>PropName{sourceDataRowEnd}...value{999999999}...valget{999999999}
+=>com.vzw.cops.serv.SourceProperty=>PropName{dbUserID}...value{c0addan}...valget{c0addan}
+=>com.vzw.cops.serv.SourceProperty=>PropName{dbMaxRowsReturn}...value{5000}...valget{5000}
+=>com.vzw.cops.serv.SourceProperty=>PropName{[ACOM-BASE-PROPERTIES]}...value{}...valget{}
+____________________Report______________________
+ |reportDirName= |reportDirNameFull=ResultSql.sql |propName=ResultSqlReportDir |propVal=
+com.vzw.cops.serv.HtmlTargetServ=>HTML Report File Opened |fileInName=ResultSql.sql.html |Dir=C:\Users\c0addan\IBM\rationalsdp\workspaceVerizonJava\vzwJavaDev\projects\ResultSql |Name=ResultSql.sql.html
+=>com.vzw.cops.autil.ACommDb=>DB Con Opened  |URL=jdbc:db2://DDFDAT1.ODC.VZWCORP.COM:446/NYOBDAT1 |User=c0addan
+  |DBProduct=DB2  |DBVersion=DSN10015
+=>com.vzw.cops.autil.ACommDbWarning description: DB2 SQL Warning: SQLCODE=98, SQLSTATE=01568, SQLERRMC=null, DRIVER=3.62.80
+=>com.vzw.cops.autil.ACommDbSQLSTATE: 01568
+=>com.vzw.cops.autil.ACommDbError code: 98
+=>com.vzw.cops.autil.ACommDb=>Current TS=2013-04-02-12.12.49.256948
+com.vzw.cops.apps.resultsql.ResultSqlApp:processThis=>mapColsNum=0
+com.vzw.cops.apps.resultsql.ResultSqlApp:processThis StatementId=0 |SourcePropertyFileName=ResultSql.sql
+         |dbMaxRowsToReturn=5000 |PropertyNumberOfMaxDataRows=999999999
+ 
+com.vzw.cops.serv.SourceServ:process=>ResultSql.sql |Source=ResultSql.sql
+           |#DataStoreRowEndNum=999999999 |#SourceProcessRowMax=5000 |#AcommDbPrepSmtMaxRows=5000
+=>mapColsNum=0
+=>com.vzw.cops.aproc.SourceSqlProc:SourceOpen=>FileName=ResultSql.sql |#Statements=1
+
+com.vzw.cops.serv.SourceServ:sourceStarted=>ResultSql.sql |FileHeadRow#0 |DataHeadRow#0 |DataStart#1 |DataEnd#999999999
+ 
+com.vzw.cops.apps.resultsql.ResultSqlApp:doSourceStarted=>mapColsNum=0
+com.vzw.cops.apps.resultsql.ResultSqlApp=>ReportBreakNum=
+com.vzw.cops.apps.resultsql.ResultSqlApp=>ReportBreakSumNum=
+com.vzw.cops.apps.resultsql.ResultSqlApp:doSourceStarted Ended=>mapColsNum=0
+ 
+com.vzw.cops.serv.SourceServ:process=>AboutTo sourceStart |ProcessMode=P
+_________sourceStart_____SourceSqlProc__ Stmt#1 |#Statments=1 |ThisStmtSize=275
+ |Stmt=	SELECT  
+        
+		CMN_PARM_GRP_ID ,CMN_PARM_ENT_ID ,CMN_PARM_SEQ_NO ,CMN_PARM_DSC 
+ 		
+ 		 FROM AQD3.CMN_BATCH_PARMS
+		
+		 WHERE CMN_PARM_GRP_ID LIKE 'ACST%' 
+		
+		ORDER BY CMN_PARM_GRP_ID, CMN_PARM_ENT_ID ,CMN_PARM_SEQ_NO
+		
+        FETCH FIRST 100 ROWS ONLY 
+		WITH UR 
+
+com.vzw.cops.aproc.SourceSqlProc:sourceStart=>Statement #1 |#TotStatements=1 |ProcessMode=P |Subject=SELECT |Topic= |Tran=
+ |Msg=        
+ |Msg=		CMN_PARM_GRP_ID ,CMN_PARM_ENT_ID ,CMN_PARM_SEQ_NO ,CMN_PARM_DSC 
+ |Msg= 		
+ |Msg= 		 FROM AQD3.CMN_BATCH_PARMS
+ |Msg=		
+ |Msg=		 WHERE CMN_PARM_GRP_ID LIKE 'ACST%' 
+ |Msg=		
+ |Msg=		ORDER BY CMN_PARM_GRP_ID, CMN_PARM_ENT_ID ,CMN_PARM_SEQ_NO
+ |Msg=		
+ |Msg=        FETCH FIRST 100 ROWS ONLY 
+ |Msg=		WITH UR 
+ |Statement= SELECT          		CMN_PARM_GRP_ID ,CMN_PARM_ENT_ID ,CMN_PARM_SEQ_NO ,CMN_PARM_DSC   		  		 FROM AQD3.CMN_BATCH_PARMS 		 		 WHERE CMN_PARM_GRP_ID LIKE 'ACST%'  		 		ORDER BY CMN_PARM_GRP_ID, CMN_PARM_ENT_ID ,CMN_PARM_SEQ_NO 		         FETCH FIRST 100 ROWS ONLY  		WITH UR 
+com.vzw.cops.aproc.SourceSqlProc:sourceStart=>Ended |Subject=SELECT |PeocessMode=S
+ 
+com.vzw.cops.serv.SourceServ:process=>sourceStarted |ProcessMode=S
+com.vzw.cops.serv.SourceServ:rowNext=>FirstDataRow@ 1 |ToEnd@ 999999999
+com.vzw.cops.serv.SourceServ:doSourceDataHeader=> |#DataColumns=4
+com.vzw.cops.serv.HtmlTargetServ=>outPageHeading=> |#Cols=4 |#Cloned=4 |DataHeadRow#0 |DataRow#0 |SourceRow#1
+com.vzw.cops.serv.HtmlTargetServ=>No Source Data Header
+com.vzw.cops.apps.resultsql.ResultSqlApp:doDataRowsEnded=>StatementId=1 @SourceRows#100 @DataRow#100  |#DataMaxRows=999999999  |#dbRowsMaxReturn=5000
+=>com.vzw.cops.autil.ACommDbWarning description: DB2 SQL Warning: SQLCODE=98, SQLSTATE=01568, SQLERRMC=null, DRIVER=3.62.80
+=>com.vzw.cops.autil.ACommDbSQLSTATE: 01568
+=>com.vzw.cops.autil.ACommDbError code: 98
+com.vzw.cops.serv.SourceServ:sourceEnded=>ResultSql.sql |#FileRows=100 |#DataRows=100
+com.vzw.cops.aproc.SourceSqlProc:sourceEnded=> After CloseQuery ResultSet is null
+=>com.vzw.cops.aproc.SourceSqlProc:SourceEnded=>Statement #1 |#TotalStatements=1
+=>com.vzw.cops.autil.ACommDb=>DB Con Commit 
+=>com.vzw.cops.autil.ACommDb=>DB Con Closed 
+____________________Email______________________
+ |Host= |From= |To= |Subject= |fileToSend=ResultSql.sql.html
+No mail being sent...Host name is empty
+=>com.vzw.cops.autil.ACommDb=>Complete TS=2013-04-02 12:12:49.573
