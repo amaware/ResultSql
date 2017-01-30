@@ -1,5 +1,0 @@
- 
-ResultSql for Angelo Adduci          jdbc:mysql://db150a.pair.com:3306/amaware_seahorse via Windows 8          2014-04-28 21:46:34.846
-...........................          ................................................................          .......................
- 
-ROLLBACKED
